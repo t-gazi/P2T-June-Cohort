@@ -1,0 +1,40 @@
+div{
+    background-color: pink;
+    border: 2px solid black;
+    width: 50%;
+    margin: 10px 5px 10px 5px;
+    padding: 1px;
+}
+
+main{
+    border: 1px solid black;
+    background-color: grey;
+    width: 50%;
+}
+
+/* use hashtag to call an ID */
+
+#first-div{
+    background-color: cornflowerblue;
+}
+
+/* use fullstop to call a class */
+
+li{color: greenyellow;}
+
+header nav ol li{
+    color: blueviolet;
+}
+
+body{
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+ol{
+    list-style-type: none;
+}
+
+a{
+    color: crimson;
+}
