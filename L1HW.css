@@ -1,0 +1,33 @@
+div{
+    color: black;
+    background-color: bisque;
+    border: 2px solid gold;
+    width: 90%;
+    margin: 10px 5px 10px 5px
+}
+
+main{
+    background-color: beige;
+    border: 2px solid goldenrod;
+    width: 50%;
+}
+
+li{color: brown}
+
+header nav ol li{
+    color: goldenrod
+}
+
+body{
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+ol{
+    list-style-type: none;
+}
+
+a{
+    color: blue;
+    text-decoration: dotted;
+}
