@@ -10,20 +10,32 @@ main{
     border: 1px solid black;
     background-color: grey;
     width: 50%;
+    text-align: center;
 }
 
 /* use hashtag to call an ID */
 
 #first-div{
     background-color: cornflowerblue;
+    text-align: right;
 }
 
 /* use fullstop to call a class */
 
-li{color: greenyellow;}
+li{
+    color: greenyellow;
+    display: block;
+    padding: 5px 10px;
+}
 
 header nav ol li{
     color: blueviolet;
+    border: 5px solid black;
+    text-decoration: none;
+}
+
+header nav ol li a:hover{
+    border bottom: 1px solid black;
 }
 
 body{
@@ -33,9 +45,17 @@ body{
 
 ol{
     list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0;
 }
 
 a{
     color: crimson;
     text-decoration: dotted;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
