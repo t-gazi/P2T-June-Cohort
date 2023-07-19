@@ -65,3 +65,63 @@ footer{
 img{
     width: 100%
 }
+
+#change{
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+
+.flex-container{
+    width: 100%;
+}
+
+header nav ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+main h4{
+    font-size: 20px;
+}
+
+footer{
+   text-align: center;
+}
+}
+
+@media only screen and (max-width:425px) {
+    body{
+        width: 100%;
+    }
+
+.flex-container{
+    width: 100%;
+}
+
+header nav ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+main h4{
+    font-size: 20px;
+}
+
+footer{
+   text-align: center;
+}
+}
